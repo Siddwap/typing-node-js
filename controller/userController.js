@@ -65,7 +65,7 @@ const login = async (req, res) => {
 };
 const logout = (req, res) => {
   const cookieOptions = {
-    expires: new Date(0), // Set the expiration date to the past
+    expires: new Date(), 
     httpOnly: true,
   };
 
